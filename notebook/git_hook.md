@@ -3,13 +3,13 @@
 钩子存在于每个 Git 仓库的 `.git/hooks` 目录中。当你初始化仓库时，Git 自动生成这个目录和一些示例脚本。当你观察 `.git/hooks` 时，你会看到下面这些文件：
 
 ```
-applypatch-msg.sample       
+applypatch-msg.sample
 pre-push.sample
-commit-msg.sample           
+commit-msg.sample
 pre-rebase.sample
-post-update.sample          
+post-update.sample
 prepare-commit-msg.sample
-pre-applypatch.sample       
+pre-applypatch.sample
 update.sample
 pre-commit.sample
 ```
