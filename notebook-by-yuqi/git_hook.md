@@ -18,7 +18,7 @@ pre-commit.sample
 
 比如说，试试安装一个 `prepare-commit-msg` 钩子。去掉脚本的 `.sample` 拓展名，在文件中加上下面这两行：
 
-```
+```sh
 #!/bin/sh
 
 echo "# Please include a useful commit message!" > $1
@@ -26,7 +26,7 @@ echo "# Please include a useful commit message!" > $1
 
 钩子需要能被执行，所以如果你创建了一个新的脚本文件，你需要修改它的文件权限。比如说，为了确保 `prepare-commit-msg` 可执行，运行下面这个命令：
 
-```
+```sh
 chmod +x prepare-commit-msg
 ```
 

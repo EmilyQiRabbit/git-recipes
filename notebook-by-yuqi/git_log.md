@@ -70,14 +70,14 @@ git log --graph --decorate --oneline
 
 可以将很多选项用在同一个命令中：
 
-```
+```sh
 git log --author="John Smith" -p hello.py
 ```
 
 这个命令会显示 `John Smith` 作者对 `hello.py` 文件所做的所有更改的差异比较（diff）。
 
-..句法是比较分支很有用的工具。下面的栗子显示了在 `some-feature` 分支而不在 `master` 分支的所有提交的概览。
+**..句法是比较分支很有用的工具。**下面的栗子显示了在 `some-feature` 分支而不在 `master` 分支的所有提交的概览。
 
-```
+```sh
 git log --oneline master..some-feature
 ```
